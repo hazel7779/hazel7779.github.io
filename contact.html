@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<!--
+    Student Name: Hazel Rugama
+    File Name: contact.html
+    Date: 07/22/2026
+-->
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Game Store | Contact</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        <a href="index.html">
+            <img src="images/game store logo.png" alt="Game Store Logo">
+        </a>
+    </div>
+
+    <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+
+                <li class="dropdown">
+                    <a href="store.html" class="dropbtn">Store</a>
+
+                    <ul class="dropdown-content">
+                        <li><a href="store.html">All Games</a></li>
+                        <li><a href="index.html#featured">Featured Games</a></li>
+                        <li><a href="store.html#upcoming">Upcoming Games</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+</header>
+
+<main>
+
+<section class="contact">
+
+    <h1>Contact Us</h1>
+
+    <p>
+        We'd love to hear from you! Fill out the form below or connect with us through our social media pages.
+    </p>
+
+    <p>
+        <strong>Contact Email:</strong>
+        <a href="mailto:GameStore@gmail.com">GameStore@gmail.com</a>
+    </p>
+
+    <form action="#" method="post">
+
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="game">Favorite Game</label>
+
+        <select id="game" name="game" required>
+
+            <option value="">Select a Game</option>
+            <option>Hytale</option>
+            <option>Minecraft</option>
+            <option>ARK: Survival Evolved</option>
+            <option>Terraria</option>
+            <option>Halo Reach</option>
+            <option>Geometry Dash</option>
+            <option>Slime Rancher 2</option>
+            <option>Left 4 Dead</option>
+            <option>No Man's Sky</option>
+            <option>Grand Theft Auto VI</option>
+
+        </select>
+
+        <label for="platform">Preferred Platform</label>
+
+        <select id="platform" name="platform" required>
+
+            <option value="">Select a Platform</option>
+            <option>PC</option>
+            <option>PlayStation</option>
+            <option>Xbox</option>
+            <option>Nintendo Switch</option>
+            <option>Mobile</option>
+
+        </select>
+
+        <label for="message">Message</label>
+
+        <textarea
+            id="message"
+            name="message"
+            rows="6"
+            required></textarea>
+
+        <button type="submit">Send Message</button>
+
+    </form>
+
+    <h2>Follow Us</h2>
+
+    <ul class="links">
+
+        <li>
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="images/facebook.png" alt="Facebook">
+                <span>Facebook</span>
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="images/instagram.png" alt="Instagram">
+                <span>Instagram</span>
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.youtube.com/" target="_blank">
+                <img src="images/youtube.png" alt="YouTube">
+                <span>YouTube</span>
+            </a>
+        </li>
+
+    </ul>
+
+</section>
+
+</main>
+
+<footer>
+
+    <p>&copy; 2026 Game Store. All Rights Reserved.</p>
+
+</footer>
+
+<script src="scripts/script.js"></script>
+
+</body>
+
+</html>
